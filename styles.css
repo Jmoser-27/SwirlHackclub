@@ -1,0 +1,82 @@
+/*
+Color Scheme
+--coffee-bean: #7f5539;
+--camel: #a68a64;
+--almond-cream: #ede0d4;
+--dusty-olive: #656d4a;
+--ebony: #414833;
+*/
+*{
+    font-family:sans-serif;
+    
+    text-align:center;
+    margin:0;
+    
+    
+}
+main{
+    height:100vh;
+    width:auto;
+}
+header{
+    background-color:#a68a64;
+    color:#FFFFFF;
+}
+main{
+    background-image:url(images/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    
+    
+    
+}
+.container{
+    display:inline-block;
+    background-color:#656d4a;
+    height:300px;
+    width:200px;
+    margin:50px;
+    border-radius:6px;
+    
+    font-size:30px;
+    color:#ffffff;
+    
+}
+
+.container img{
+    max-width:100%;
+    border-radius:6px;
+    align-self: top;
+    
+}
+.container p{
+    vertical-align: middle;
+    margin-top:20px;
+}
+.container:hover{
+    animation-name:sizeUp;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+@keyframes sizeUp {
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.15);
+    }
+}
+a{
+    text-decoration:none;
+    color:#FFFFFF;
+}
+iframe{
+    width:50vw;
+    height:50vh;
+}
+header{
+    font-size:25px;
+    padding:10px;
+}
